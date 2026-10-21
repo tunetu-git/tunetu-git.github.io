@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samba Family · TuneTu.music</title>
+<meta name="description" content="Samba Family: samba, bossa nova e música carioca. Ouça no Spotify, Apple Music e YouTube.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --verde:#016628; --escuro:#004237; --ouro:#FDC911; --creme:#F5E7BE; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--escuro); color:var(--creme); font:16px/1.6 Inter, system-ui, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 56px; }
+  .pill { display:inline-block; background:var(--ouro); color:var(--escuro); font:600 15px Fredoka, sans-serif;
+          letter-spacing:.06em; padding:6px 18px; border-radius:999px; }
+  h1 { font:600 clamp(32px,7vw,52px)/1.1 Fredoka, sans-serif; margin:18px 0 8px; }
+  h2 { font:600 24px Fredoka, sans-serif; color:var(--ouro); margin:40px 0 8px; }
+  img { width:100%; height:auto; border-radius:18px; display:block; margin:24px 0; }
+  a { color:var(--ouro); }
+  .links { display:flex; flex-wrap:wrap; gap:10px; margin:16px 0; }
+  .links a { background:var(--verde); color:var(--creme); text-decoration:none; padding:10px 18px;
+             border-radius:999px; border:1px solid rgba(245,231,190,.25); }
+  .links a:hover { background:var(--ouro); color:var(--escuro); }
+  .card { background:var(--verde); border-radius:18px; padding:20px 22px; }
+  footer { margin-top:48px; font-size:14px; opacity:.8; }
+</style>
+</head>
+<body>
+<main>
+  <span class="pill">SAMBA FAMILY</span>
+  <h1>Samba, bossa nova e as esquinas do Rio</h1>
+  <p>Samba Family é um projeto musical do selo TuneTu.music: samba, bossa nova e música urbana brasileira,
+     contada em pequenas histórias de bairro, praia e madrugada.</p>
+  <p lang="en"><em>Samba Family is a music project by the label TuneTu.music: samba, bossa nova and urban
+     Brazilian music, told through small stories of neighbourhoods, beaches and late nights.</em></p>
+
+  <img src="samba-family.jpg" alt="Ilustração: pessoas dançando samba à noite em frente a casarões antigos no Rio de Janeiro">
+
+  <h2>Ouça / Listen</h2>
+  <div class="links">
+    <a href="https://open.spotify.com/artist/0QV153GhAcJaw0Uq1jFTKT">Spotify</a>
+    <a href="https://music.apple.com/us/artist/samba-family/1821316302">Apple Music</a>
+    <a href="https://www.youtube.com/channel/UCz5_8Cw871WGw_O4CCvCJ7g">YouTube</a>
+    <a href="https://www.instagram.com/samba_family_music/">Instagram</a>
+  </div>
+
+  <h2 lang="en">About the “Samba Family Automat” app</h2>
+  <div class="card" lang="en">
+    <p>“Samba Family Automat” is an internal tool used only by TuneTu.music. It publishes Samba Family's own
+       short music videos (YouTube Shorts) to Samba Family's own YouTube channel on a fixed schedule.</p>
+    <p>To do this it uses the YouTube Data API with access to that one channel: it uploads the videos and sets
+       their title, description, tags and publishing time, and it reads basic statistics of these videos.
+       It is not offered to the public, no other people sign in to it, and it does not access anyone else's data.</p>
+    <p>Details are in the <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+
+  <footer>
+    TuneTu.music · Wetzikon, Switzerland · <a href="mailto:alanitomusic@gmail.com">alanitomusic@gmail.com</a><br>
+    <a href="privacy.html">Privacy policy / Política de privacidade</a>
+  </footer>
+</main>
+</body>
+</html>
